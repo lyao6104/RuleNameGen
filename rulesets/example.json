@@ -1,0 +1,17 @@
+{
+  "listName": "example",
+  "nameSegments": [
+    {
+      "segmentType": "defaultFirst",
+      "segments": ["Hello", "Hi"]
+    },
+    {
+      "segmentType": "defaultSecond",
+      "segments": ["World", "Everyone"]
+    }
+  ],
+  "nameFormats": [
+    { "value": "{defaultFirst} {defaultSecond}", "weight": 100 },
+    { "value": "I am a static name format", "weight": 50 }
+  ]
+}
