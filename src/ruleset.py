@@ -39,7 +39,7 @@ class Ruleset(object):
         """
 
         data = {}
-        with open(ruleset_path, "r") as rs_file:
+        with open(ruleset_path, "r", encoding="utf-8") as rs_file:
             data = json.loads(rs_file.read())
 
         name_segments = []
